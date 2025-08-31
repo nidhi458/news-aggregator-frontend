@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar-->
+   <header>
+  <h1>News Aggregator</h1>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search news...">
+    <button onclick="searchNews()">Search</button>
+  </div>
+  <div class="categories">
+    <button class="btn" onclick="getNews('general')">General</button>
+    <button class="btn" onclick="getNews('technology')">Technology</button>
+    <button class="btn" onclick="getNews('sports')">Sports</button>
+    <button class="btn" onclick="getNews('business')">Business</button>
+    <button class="btn" onclick="getNews('health')">Health</button>
+  </div>
+</header>
+
+<main>
+  <div id="newsContainer"></div>
+</main>
+
+    <script src = "script.js"></script>
+</body>
+</html>
