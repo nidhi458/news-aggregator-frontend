@@ -2,10 +2,10 @@ const newsContainer = document.getElementById("newsContainer");
 
 // Random fallback images
 const fallbackImages = [
-    "https://source.unsplash.com/300x180/?news,1",
-    "https://source.unsplash.com/300x180/?news,2",
-    "https://source.unsplash.com/300x180/?news,3",
-    "https://source.unsplash.com/300x180/?news,4"
+    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2VuZXJhbHxlbnwwfHwwfHx8MA%3D%3D",
+    "https://plus.unsplash.com/premium_photo-1685366454581-796f5fc832c6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNwb3J0c3xlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlYWx0aHxlbnwwfHwwfHx8MA%3D%3D"
 ];
 
 function getRandomImage() {
