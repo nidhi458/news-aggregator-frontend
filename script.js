@@ -18,7 +18,7 @@ window.onload = () => {
 };
 
 function getNews(category) {
-    fetch(`http://localhost:5000/news?category=${category}`) // replace with live backend URL after deployment
+    fetch(`https://news-aggregator-backend-5opt.onrender.com/news?category=${category}`) // replace with live backend URL after deployment
         .then(res => res.json())
         .then(data => displayNews(data.articles))
         .catch(err => console.log("Error fetching news:", err));
@@ -27,7 +27,7 @@ function getNews(category) {
 function searchNews() {
     const query = document.getElementById("searchInput").value;
     if (!query) return;
-    fetch(`http://localhost:5000/search?q=${query}`) // replace with live backend URL after deployment
+    fetch(`https://news-aggregator-backend-5opt.onrender.com/search?q=${query}`) // replace with live backend URL after deployment
         .then(res => res.json())
         .then(data => displayNews(data.articles))
         .catch(err => console.log("Error fetching news:", err));
